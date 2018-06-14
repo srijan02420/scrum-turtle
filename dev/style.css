@@ -6,3 +6,8 @@
 .ninja-main-image{
     background-image: url('./image/turtle-4.jpg');
 }
+@media only screen and (max-width: 600px) {
+    #ninja-main-desc{
+        font-size: 14px;
+    }
+}
