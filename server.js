@@ -20,6 +20,10 @@ app.get('/facts', function(req, res) {
     res.sendfile(__dirname + '/public/facts.html')
 })
 
-app.listen(3000, () => {
+app.get('/scrum', function(req, res) {
+  res.sendfile(__dirname + '/public/scrum.html')
+})
+
+app.listen(9000, () => {
     console.log('Server started on port: 3000');
 })
