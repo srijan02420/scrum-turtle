@@ -16,6 +16,10 @@ app.get('/diet', function(req, res) {
     res.sendfile(__dirname + '/public/diet.html')
 })
 
+app.get('/facts', function(req, res) {
+    res.sendfile(__dirname + '/public/facts.html')
+})
+
 app.listen(3000, () => {
     console.log('Server started on port: 3000');
 })
